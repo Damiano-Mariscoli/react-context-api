@@ -15,9 +15,14 @@ function MainNav() {
               </Link>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/posts">
+              <Link className="nav-link" to="/posts">
                 Posts
-              </NavLink>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/posts/context">
+                Context
+              </Link>
             </li>
           </ul>
         </div>
